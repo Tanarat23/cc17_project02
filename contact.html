@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <ul class="Navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <h1>Contact page</h1>
+    <p>Lorem ipsum dolor sithr, amet consectetur adipisicing elit. Labore mollitia porro eligendi aperiam harum, nisi
+        iure animi reiciendis dolores aliquid vel omnis distinctio ipsam delectus consectetur debitis, itaque fuga
+        ullam.</p>
+    <hr>
+    <h3>Please fill this form</h3>
+    <form action="./index.html" method="get">
+        <fieldset>
+            <legend>User info</legend>
+            <label> First name : <br>
+                <input type="text" name="fname" />
+            </label>
+            <br><br>
+            <label> Last name : <br>
+                <input type="text" name="lname" />
+            </label>
+            <br><br>
+            <fieldset>
+
+                <legend>Course</legend>
+                <label>
+                    <input type="radio" name="Course" value="html">HTML
+                </label><br>
+                <label>
+                    <input type="radio" name="Course" value="css">CSS
+                </label><br>
+                <label>
+                    <input type="radio" name="Course" value="js">Javascript
+                </label><br><br>
+            </fieldset><br><br>
+            <fieldset>
+
+                <legend>Framework</legend>
+                <label>
+                    <input type="radio" name="fwork" value="React">React
+                </label>
+                <label>
+                    <input type="radio" name="fwork" value="Angular">Angular
+                </label>
+            </fieldset>
+            <br><br>
+            <input type="submit" value="Send"><br><br>
+            <!--Button good more than input-->
+            <button>OK</button>
+            <button type="button">NO</button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
